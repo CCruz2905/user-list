@@ -7,6 +7,7 @@ const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+    entry: ['babel-polyfill'],
     mode: 'production',
     optimization: {
         minimizer: [ new OptimizeCssAssetsPlugin() ]

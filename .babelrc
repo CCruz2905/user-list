@@ -1,3 +1,3 @@
 {
-    "presets": ["@babel/preset-env", "minify"]
-}
+    "presets": [ "es2015", "stage-0" ]
+  }
