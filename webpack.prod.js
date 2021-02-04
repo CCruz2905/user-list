@@ -3,6 +3,8 @@ const MiniCssExtractPlugin    = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const MinifyPlugin            = require('babel-minify-webpack-plugin');
 const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
+require("babel-core/register");
+require("babel-polyfill");
 
 const CopyPlugin = require('copy-webpack-plugin');
 
